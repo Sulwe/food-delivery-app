@@ -20,3 +20,11 @@ header {
 .bg-base-100 {
   @apply bg-gradient-to-r from-[#fafafa] from-0% to-[#fcfcfc] to-100%;
 }
+
+.subtitle {
+  @apply text-red uppercase tracking-wide font-medium text-lg;
+}
+
+.title {
+  @apply text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug;
+}
