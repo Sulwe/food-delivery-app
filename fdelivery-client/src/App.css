@@ -4,6 +4,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+header {
+  z-index: 10001 !important;
+}
+
 .logo {
   height: 80px;
   width: auto;
@@ -11,4 +15,8 @@ body {
 
 .section-container {
   @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
+}
+
+.bg-base-100 {
+  @apply bg-gradient-to-r from-[#fafafa] from-0% to-[#fcfcfc] to-100%;
 }
