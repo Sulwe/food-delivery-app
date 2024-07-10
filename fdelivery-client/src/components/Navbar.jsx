@@ -22,13 +22,14 @@ const Navbar = () => {
             window.addEventListener('scroll', handleScroll);
         }
     }, [])
-    const navItems = <>
-    <li><a href='/'>Home</a></li>
+    const navItems = (
+    <>
+    <li><a className='text-green' href='/'>Home</a></li>
                 <li>
                     <details>
                     <summary>Menu</summary>
                     <ul className="p-2">
-                        <li><a>All</a></li>
+                        <li><a href='/menu'>All</a></li>
                         <li><a>Salad</a></li>
                         <li><a>Pizza</a></li>
                     </ul>
@@ -46,6 +47,7 @@ const Navbar = () => {
                 </li>
                 <li><a>Offers</a></li>
     </>
+    )
   return (
     <header className='max-w-screen-2xl container mx-auto fixed top-0 left-0 right-0 transition-all duration-300
     ease-in-out'>
