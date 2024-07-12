@@ -3,6 +3,7 @@
 body {
   font-family: 'Inter', sans-serif;
   @apply bg-gradient-to-r from-[#fafafa] from-0% to-[#fcfcfc] to-100%;
+  height: 100vh;
 }
 
 header {
